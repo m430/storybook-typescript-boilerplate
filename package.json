@@ -1,0 +1,54 @@
+{
+  "name": "learning-hook",
+  "version": "0.0.1",
+  "description": "react hook demo",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "gh": "storybook-to-ghpages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m430/antd-pro-toolkit.git"
+  },
+  "keywords": [
+    "react-hook"
+  ],
+  "author": "m430",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m430/antd-pro-toolkit/issues"
+  },
+  "homepage": "https://github.com/m430/antd-pro-toolkit#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-info": "^5.0.11",
+    "@storybook/addon-knobs": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addon-notes": "^5.0.11",
+    "@storybook/addon-storysource": "^5.0.11",
+    "@storybook/addons": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "@storybook/storybook-deployer": "^2.8.1",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+    "@types/storybook__react": "^4.0.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "typescript": "^3.6.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}
